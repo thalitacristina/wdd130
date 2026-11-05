@@ -9,8 +9,6 @@ body {
     line-height: 1.5;
     color: #222;
     background: #fff;
-    margin: 0;
-    
 }
 
 nav {
@@ -19,15 +17,20 @@ nav {
 }
 
 nav a {
-    color:white;
+    color: white;
     padding: 10px;
     display: block;
-    
 }
+
 h1 {
     color: pink;    
 }
-main img{
+
+main {
+    max-width: 840px;
+}
+
+main img {
     width: 150px;
     height: auto;
     border: 1px solid pink;
@@ -38,8 +41,6 @@ main img{
 p {
     padding: 0;
 }
-
-
 
 aside {
     width: 20rem;
@@ -54,10 +55,6 @@ aside {
 aside img {
     width: 200px;
     height: auto;
-}
-
-main {
-    max-width: 840px;
 }
 
 footer {
