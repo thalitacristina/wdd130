@@ -10,8 +10,6 @@ h1 {
     padding-bottom: 0;
 }
 
-
-
 p {
     margin: 0;
 }
@@ -22,13 +20,11 @@ code {
     font-size: 1.4rem;
 }
 
-/* Class exemplos - podem ser reutilizados */
-
 .box {
     margin: 20px 0;
     border: 1px solid rgb(0 0 0 / 10%);
     padding: 10px;
-    background-color: #ddd; /* essa é a abreviação para #dddddd */
+    background-color: #ddd;
 }
 
 .highlight {
@@ -37,15 +33,18 @@ code {
     padding: 25px;
 }
 
-/* ID exemplos - devem ser únicos */
+.note-test {
+    background-color: #e0f7fa;
+    border-left: 4px solid #00838f;
+}
 
-#note {
+#main-note {
     background-color: #333;
     color: white;
     width: fit-content;
 }
 
-#note code {
+#main-note code {
     color: yellow;
 }
 
@@ -53,6 +52,6 @@ code {
     background: linear-gradient(135deg, #000 0%, #999 100%);
     color: white;
     border-radius: 20px;
-    padding: 20px
+    padding: 20px;
 }
 
